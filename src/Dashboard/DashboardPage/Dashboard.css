@@ -1,0 +1,174 @@
+.dashboard{
+    /* min-height: 100vh;
+    position: relative; */
+}
+/* SideBar Dashboard */
+.grand-sidebar{
+    margin-top: 130px;
+   
+  }
+ 
+  
+
+.father-sidebar{
+    padding: 25px 30px;
+    min-height: 100vh;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, 0.4);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position:fixed;
+    top:110px;
+    left: 0;
+    z-index: 4;
+    background-color: white;
+}
+
+.outlet{
+    margin-right:20px ;
+    min-width: 500px;
+}
+
+.child-sidebar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(72, 40, 40);
+    transition: 0.3s;
+    padding: 5px;
+   
+}
+
+.father-sidebar .active{
+    background-color:rgb(72, 40, 40);
+    border-radius: 5px;
+    color: white;
+    padding: 5px; 
+}
+
+.child-sidebar:hover{
+    background-color:rgb(72, 40, 40);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+ }
+
+
+ /* TopBar Dashboard */
+
+ .father-topbar{
+  height: 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0, 0.4);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:5;
+  background-color: white;
+  
+}
+
+ .item{
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 18px;      
+  }
+  
+  .icon{
+     cursor: pointer;
+  }
+  
+  .item:hover{
+     color: rgb(53, 23, 23);
+      }
+  
+  .img-topbar{
+      height:50px;
+      width:50px;
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      -ms-border-radius:50%;
+      -o-border-radius:50%;
+  }
+  
+  .child-topbar{
+      display: flex ;
+      align-items: center;
+      gap: 2.4rem; 
+  }
+  .child-three-topbar{
+      display: flex; 
+      align-items: center;
+      gap:6px;
+      }
+      
+/*   @media (max-width:450px){
+      .father-topbar{
+          flex-direction: column-reverse;
+          height: 130px;
+          padding: 20px;
+      }
+  
+      .child-one-topbar{
+          width: 100%;
+          justify-content:space-between; 
+          }
+  
+      .child-two-topbar{
+          width: 100%; 
+          justify-content:space-between; 
+          margin-top: 5px;
+          }
+        
+          .img-topbar{
+              display: none;
+          }
+  
+          .item{
+              font-size: 25;
+          }
+  
+          .icon{
+              font-size:15px; 
+          }
+  
+          .child-two-topbar{
+              font-size: 15px;
+          }
+  }
+ */
+
+
+
+  /* ADD pages */
+
+  .form-add{
+    margin: 30px auto;
+    width: 600px;
+    padding: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.4);
+    
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+   
+
+}
+.btn-add{
+    width:100% ;
+}
+.header-add{
+  opacity: 0.5;
+  cursor: default;
+  margin-bottom:15px;
+}
